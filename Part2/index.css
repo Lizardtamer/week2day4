@@ -1,0 +1,20 @@
+@keyframes Grow {
+  from {font-size: 100% ;}
+  to {font-size: xx-large;}
+}
+
+#emoji{
+  animation-name: Grow ;
+  animation-duration: 1s;
+}
+
+/*
+**Part 2: Grow animation**
+1. Create a "Grow" CSS animation for an emoji.
+    - [x] Animate the emoji to grow in size 
+       - [x] Create a 'keyframes' block named 'Grow' that will change the font-size of an element to a larger size.
+         - [x] Use the 'font-size' property to achieve this 
+      - [x] Create a style block for the "#emoji" id
+        - [x] Bind the animation to the style block by setting the value of the 'animation' property to the
+             name of the keyframes block you created and the amount of time the animation should take (Grow 1s)
+*/

@@ -1,0 +1,21 @@
+@keyframes FadeIn {
+    from {color: white ;}
+    to {color: black ;}
+}
+
+.banner {
+    color: white ;
+    animation-name: FadeIn ;
+    animation-duration: 1s ;
+}
+
+/*
+**Part 1: Fade-In animation**
+1. Create a "Fade-in" CSS animation for the banner.
+   [x] Animate the banner's text color to gradually transition from white to black
+     [x] Create a 'keyframes' block called 'FadeIn' that will transition the color property from white to black
+     [x] Define the styles for the "banner" class in your CSS. 
+       [x] Set the text color to white.
+       [x] Bind the animation to the style block by setting the value of the 'animation' property to the name 
+          of the keyframes block you created and the amount of time the animation should take  (FadeIn 1s)
+*/
